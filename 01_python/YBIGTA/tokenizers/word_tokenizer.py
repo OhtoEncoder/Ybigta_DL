@@ -1,5 +1,6 @@
 from typing import Union, List
 
+#죄송합니다 WORD 토크나이저는 뭘 어떻게 해야할지 모르겠어용....
 class WordTokenizer:
     def __init__(self):
         pass
@@ -28,6 +29,6 @@ class WordTokenizer:
 
 if __name__ == "__main__":
     tokenizer = WordTokenizer()
-    tokenizer.add_corpus(["This is a sample sentence.", "Another example sentence."])
+    tokenizer.add_corpus(["I love Ybigta.", "I like python."])
     result = tokenizer.tokenize("Test tokenization.")
     print(result)
